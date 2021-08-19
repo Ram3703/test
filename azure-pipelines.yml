@@ -60,6 +60,6 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/test-report.xml'
+    testResultsFiles: '**/test-report.html'
     failTaskOnFailedTests: true
   condition: succeededOrFailed()
